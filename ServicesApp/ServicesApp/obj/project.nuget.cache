@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UeIo0zeOVjQK79NaxptfY8tI8CeJvAhHUni9XErlVqHr0DTa42EtnyoC5qfUoOo+LRRWYcsWzXTrmgczfxCG+A==",
+  "success": true,
+  "projectFilePath": "C:\\AngularProjects\\ApisEncuestaCore\\ServicesApp\\ServicesApp\\ServicesApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jamurillo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512"
+  ],
+  "logs": []
+}
