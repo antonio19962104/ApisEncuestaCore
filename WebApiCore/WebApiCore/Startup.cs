@@ -10,6 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApiCore.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebApiCore
 {
@@ -31,6 +33,11 @@ namespace WebApiCore
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApiCore", Version = "v1" });
             });
+            /*
+             * jamurillo 29/10/2021
+             * Habilitar servicio de conexion
+             */
+            services.AddDbContext<WebApiCoreDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("WebApiCoreDbConnectionString")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
